@@ -12,8 +12,10 @@ const collectEmployees = function () {
     let lastName = prompt("Enter last name:");
     let salary = prompt("Enter salary:");
     
-    if (isNaN(salary)) {
+    if (isNaN(salary) || salary === '') {
       salary = 0;
+    } else {
+      salary = parseFloat(salary);
     }
 
     let employeeInfo = {
