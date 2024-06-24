@@ -34,6 +34,9 @@ const collectEmployees = function () {
 // Display the average salary
 const displayAverageSalary = function (employeesArray) {
   // TODO: Calculate and display the average salary
+  const sum = employeesArray.reduce((accumulator, currentValue) => accumulator + currentValue.salary, 0);
+  const average = sum / employeesArray.length;
+  console.log(`The average employee salary between our ${employeesArray.length} employee(s) is $${average.toFixed(2)}`);
 };
 
 // Select a random employee
