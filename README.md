@@ -15,9 +15,11 @@ User can add mutiple employees to employee roster by clicking on "Add Employees"
 ## Code Snippet
 
 ![Alt text](CodeSnippets/codeSS1.png)
+
 In above screenshot, the addEmployee variable is used to control the loop based on the user's choice to continue adding employees or not.
 
 ![Alt text](CodeSnippets/codeSS2.png)
+
 A conditional if else statement inside a while loop to run if the salary is not a number or empty then the salary should be 0. Otherwise it will show the salary provided.
 
 ## Gif Demo
@@ -27,7 +29,9 @@ A conditional if else statement inside a while loop to run if the salary is not 
 ## Author Info
 
 [Portfolio] (https://asgithub11.github.io/Homework-Challenge-2/)
+
 [Github] (https://github.com/ASgithub11)
+
 [LinkedIn] (https://www.linkedin.com/in/aisha-siddiqa-726578311/)
 
 ## License
